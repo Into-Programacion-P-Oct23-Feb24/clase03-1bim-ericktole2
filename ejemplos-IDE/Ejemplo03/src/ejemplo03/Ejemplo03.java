@@ -16,21 +16,19 @@ public class Ejemplo03 {
      */
     public static void main(String[] args) {
         // Para crear un comentario debo utilizar dole "/" y un espacio
-         
-        // Tipos de dato en Java
 
+        // Tipos de dato en Java
         // Tipo de datos Entero
-        
         /*
         Para crear un comentario de multiples lineas se realiza lo siguiente
         se utiliza un "/" y "*" para abir el comentario, para cerrarlo primero 
         se uliza el "*" y luego "/" y quedara el comentario cerrado
-        */
+         */
         int variable1;
         int variable2 = 10;
-        int valorInicial = 18;
-        int valor_inicial = 18;
-        // int valor inicial = 18;
+        int valorInicial = 18; // ok
+        int valor_inicial = 18; // ok
+        //int valor inicial = 18; 
         int valor_inicial_2 = 18;
 
         // Tipo de datos Double - Decimal
@@ -48,13 +46,13 @@ public class Ejemplo03 {
         // tipo de dato boolean - boleano
         boolean variable9 = false;
         boolean variable10 = true;
-        
+
         boolean variable11 = false;
         // boolean variable11 = false; // incorrecto
         variable11 = false;
         variable11 = true;
         // variable11 = variable6;
-        
+
     }
 
 }
